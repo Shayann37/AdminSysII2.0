@@ -1,6 +1,6 @@
 <hr>
 
-# AdminSysII2.0
+# AdminSysII2.0 - Group L2.8
 
 <p>Ceci est notre projet d'administration Réseaux et Systèmes II</p>
 
