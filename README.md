@@ -14,4 +14,4 @@ Pour se faire, nous avons eu accès à un cahier des charges sur lequel nous dev
 
 <h1> Lien vers l'état de nos services </h1>
 
-https://onedrive.live.com/view.aspx?resid=C84225D225D8CACD!1956&ithint=file%2cxlsx&authkey=!AEcCPkphH0yNoiI
+Lien vers le tableur Excel: https://1drv.ms/x/s!As3K2CXSJULIjyuN0yu-pkRdggdc?e=awHmkZ
