@@ -90,3 +90,4 @@ https://www.clicours.com/cours-fonctionnement-de-pgp-programme-de-cryptage/
 https://www.seald.io/fr/blog/crypter-un-fichier-chiffrer-proteger-qui-dit-quoi
 https://blog.mailfence.com/fr/difference-chiffrement-symetrique-asymetrique/
 https://docs.microsoft.com/fr-fr/system-center/orchestrator/standard-activities/pgp-encrypt-file?view=sc-orch-2022
+https://fr1.buffalo-mn.org/pgp-me-pretty-good-privacy-explained-4745
