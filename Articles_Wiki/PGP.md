@@ -21,7 +21,43 @@ Contrairement au chiffrement, le cryptage est souvent une confusion vis à vis d
 
 Revenons à notre chiffrement PGP et son Fonctionnement : 
 
-Tout d'abord
+Tout d'abord, PGP génère une clé de session aléatoire en utilisant un premier alogrithme. Cette clé est un très long nombre qui ne peut pas être deviné, et ne peut être utilisé qu’une seule fois.<br>
+
+Ensuite, cette clé de session est chiffrée. Cette opération est réalisée à l'aide de la clé publique du destinataire du message. La clé publique est liée à l'identité d'une personne particulière et n'importe qui peut l'utiliser pour lui envoyer un message. L'expéditeur envoie sa clé de session PGP chiffrée au destinataire et celui-ci est en mesure de le déchiffrer à l'aide de sa clé privée.  En utilisant la clé de session, le destinataire peut finalement déchiffrer le message.
+
+Enfin, pourquoi ne pas utiliser une simple méthode de chiffrement symétrique ? En effet, le chiffrement symétrique est une technique plus rapide et plus facile à mettre en place mais l'inconvénient est que la clé commune à l'expéditeur et au destinataire nécéssite d'etre partagée en texte brut, ce qui n'est pas sur du tout...
+C’est la raison pour laquelle on utilise une clé de chiffrement publique pour chiffrer la clé de session. Ainsi, PGP combine l’efficacité du chiffrement symétrique et la sécurité du chiffrement par clé publique.
+
+<br>
+## A quoi sert PGP ?
+
+### le chiffrement de Mails
+
+Le chiffrement des emails est le cas d'usage principal de PGP est utilisé pour toute personne souhaitant effectuer des communication sécurisées et préserver la confidentialité des données.
+
+
+### la vérification de signatures numériques
+
+Outre le cas des mails, PGP est aussi utilisé pour la vérification de signature numériques, c'est à dire la vérification de l'identité d'un expéditeur d'un email. "Une signature numérique repose sur l’utilisation d’un algorithme pour combiner la clé de l’expéditeur avec les données qu’il envoie. Cette combinaison génère une  » fonction hash  » : un autre algorithme permettant de convertir un message en un bloc de données à taille fixe. Ce bloc est ensuite chiffré à l’aide de la clé privée de l’expéditeur." [lebigdata.fr/pgp-tout-savoir]
+
+le destinataire du message est alors capable de déchiffrer les données en utilisant la clé publique de l'expéditeur. Si un caractère du message à été altéré pendant l'échange du message, alors cela signifie que l'expéditeur n'est peut etre pas celui qu'il prétend...
+
+### le chiffrement de fichiers
+
+Le chiffrement des fichiers est un autre cas d'usage de PGP est utilisé pour toute personne souhaitant effectuer des échanges de dossiers ou fichiers sécurisées et préserver la confidentialité des données.
+
+<br>
+## PGP, OpenPGP et GnuPG
+
+en raison des problèmes de brevets de PGP dans les années 90, PGP n'était pas toujours la solution la plus pratique à l'internationale, le Groupe de travail OpenPGP fur crée après la diffusion du code source de PGP, lui, protégé. OpenPGP est basé sur le système de chiffrement PGP et est lui aussi, une méthode de chiffrement basé sur un système de clés. OpenPGP est largement uutilisé pour sécuriser les communications par courrier électronique, mais sa technologie peut également être appliquée au transfert de fichier via FTP.
+
+GnuPG, lui, est une autre norme de chiffrement libre que les entreprises peuvent utiliser, basée sur OpenPGP. La principale différence avec le PGP réside dans les algorithmes pris en charges. GnuPG est un outil utilisé pour la communication et le stockage de données en toute sécurité. Il dispose d’un système de gestion des clés robuste et s’intègre facilement à d’autres applications. Il prend en charge : le chiffrement, la signature des données, S/MIME et SSH.
+
+<br>
+## Quelle sécurité fournie par PGP ?
+
+
+
 
 
 
@@ -45,9 +81,12 @@ Tout d'abord
 
 
 ## Sources 
+https://fr1.buffalo-mn.org/pgp-me-pretty-good-privacy-explained-4745
 https://tutox.fr/2017/04/28/chiffrer-nest-crypter/
 https://www.malekal.com/le-chiffrement-pgp-comment-ca-marche/
 https://www.varonis.com/fr/blog/pgp-encryption
 https://www.lebigdata.fr/pgp-tout-savoir
 https://www.clicours.com/cours-fonctionnement-de-pgp-programme-de-cryptage/
 https://www.seald.io/fr/blog/crypter-un-fichier-chiffrer-proteger-qui-dit-quoi
+https://blog.mailfence.com/fr/difference-chiffrement-symetrique-asymetrique/
+https://docs.microsoft.com/fr-fr/system-center/orchestrator/standard-activities/pgp-encrypt-file?view=sc-orch-2022
