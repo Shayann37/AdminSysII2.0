@@ -60,6 +60,8 @@ GnuPG, lui, est une autre norme de chiffrement libre que les entreprises peuvent
 ## Quelle sécurité fournie par PGP ?
 
 
+## Avantages et Inconvénients ?
+
 
 
 
