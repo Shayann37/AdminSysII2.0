@@ -29,6 +29,7 @@ Enfin, pourquoi ne pas utiliser une simple méthode de chiffrement symétrique ?
 C’est la raison pour laquelle on utilise une clé de chiffrement publique pour chiffrer la clé de session. Ainsi, PGP combine l’efficacité du chiffrement symétrique et la sécurité du chiffrement par clé publique.
 
 <br>
+
 ## A quoi sert PGP ?
 
 ### le chiffrement de Mails
@@ -47,6 +48,7 @@ le destinataire du message est alors capable de déchiffrer les données en util
 Le chiffrement des fichiers est un autre cas d'usage de PGP est utilisé pour toute personne souhaitant effectuer des échanges de dossiers ou fichiers sécurisées et préserver la confidentialité des données.
 
 <br>
+
 ## PGP, OpenPGP et GnuPG
 
 en raison des problèmes de brevets de PGP dans les années 90, PGP n'était pas toujours la solution la plus pratique à l'internationale, le Groupe de travail OpenPGP fur crée après la diffusion du code source de PGP, lui, protégé. OpenPGP est basé sur le système de chiffrement PGP et est lui aussi, une méthode de chiffrement basé sur un système de clés. OpenPGP est largement uutilisé pour sécuriser les communications par courrier électronique, mais sa technologie peut également être appliquée au transfert de fichier via FTP.
@@ -54,6 +56,7 @@ en raison des problèmes de brevets de PGP dans les années 90, PGP n'était pas
 GnuPG, lui, est une autre norme de chiffrement libre que les entreprises peuvent utiliser, basée sur OpenPGP. La principale différence avec le PGP réside dans les algorithmes pris en charges. GnuPG est un outil utilisé pour la communication et le stockage de données en toute sécurité. Il dispose d’un système de gestion des clés robuste et s’intègre facilement à d’autres applications. Il prend en charge : le chiffrement, la signature des données, S/MIME et SSH.
 
 <br>
+
 ## Quelle sécurité fournie par PGP ?
 
 
