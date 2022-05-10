@@ -3,11 +3,30 @@
 
 ## Introduction 
 
-Avant de rentrer dans le vif du sujet en détails, il est intéressant de d'abord se remettre dans le Contexte et se poser la question : "Qu'est ce que PGP ?".<br>
+Avant de rentrer dans le vif du sujet en détails, il est intéressant de d'abord se remettre dans le Contexte et se poser la question : "Pourquoi utiliser PGP ?".<br>
 
-Inventé en 1991, PGP ou "Pretty Good Privacy" est un système de chiffrement utilisé pour crypter des données, chiffrer des emails et des fichiers sensibles à travers différents logiciels se basant sur PGP lui-même. PGP s'impose rapidement comme un standard pour la sécurité des emails et sa popularité repose sur 2 avantages significatifs. <br>
+Inventé en 1991, PGP ou "Pretty Good Privacy" est un système de chiffrement utilisé pour chiffrer des données, chiffrer des emails et des fichiers sensibles à travers différents logiciels se basant sur PGP lui-même. PGP s'impose rapidement comme un standard pour la confidentialité des emails et sa popularité repose sur 2 avantages significatifs. <br>
 Premièrement, PGP est un "freeware" ou "logiciel gratuit" (pour les francophones) qui lui a permis de se propager assez rapidement parmi les utilisateurs désirant un niveau de sécurité supplémentaire sur leur transfert d'emails.<br>
-Deuxièmement, PGP utilise le système de chiffrement asymétrique ce qui permet aux utilisateurs de communiquer de facon chiffré sans échanger leurs clés privées ce qui est un réel avantage en terme de sécurité et à moindre cout et assure le chiffrement de bout en bout des communications.
+Deuxièmement, PGP utilise le système de chiffrement asymétrique ce qui permet aux utilisateurs de communiquer de facon chiffré de bout en bout lors d'échanges de mails coté serveur (pour les mailsà sans échanger leurs clés privées ce qui est un réel avantage en terme de sécurité et à moindre cout et assure le chiffrement de bout en bout des communications.
+
+## A quoi sert PGP ?
+
+### le chiffrement de Mails
+
+Le chiffrement des emails est le cas d'usage principal de PGP est utilisé pour toute personne souhaitant effectuer des communication sécurisées et préserver la confidentialité des données.
+
+
+### la vérification de signatures numériques
+
+Outre le cas des mails, PGP est aussi utilisé pour la vérification de signature numériques, c'est à dire la vérification de l'identité d'un expéditeur d'un email. "Une signature numérique repose sur l’utilisation d’un algorithme pour combiner la clé de l’expéditeur avec les données qu’il envoie. Cette combinaison génère une  » fonction hash  » : un autre algorithme permettant de convertir un message en un bloc de données à taille fixe. Ce bloc est ensuite chiffré à l’aide de la clé privée de l’expéditeur." [lebigdata.fr/pgp-tout-savoir]
+
+le destinataire du message est alors capable de déchiffrer les données en utilisant la clé publique de l'expéditeur. Si un caractère du message à été altéré pendant l'échange du message, alors cela signifie que l'expéditeur n'est peut etre pas celui qu'il prétend...
+
+### le chiffrement de fichiers
+
+Le chiffrement des fichiers est un autre cas d'usage de PGP est utilisé pour toute personne souhaitant effectuer des échanges de dossiers ou fichiers sécurisées et préserver la confidentialité des données.
+
+<br>
 
 ## Fonctionnement et Concepts Théoriques 
 
@@ -35,23 +54,6 @@ Schéma de Chiffrement PGP:
 ![test](https://github.com/edouardmais1/AdminSysII2.0/blob/main/IMG/Chiffrement-Dechiffrement-mail-PGP-dsfsdgf5.jpg)
 
 lien vers l'images : -> https://www.malekal.com/le-chiffrement-pgp-comment-ca-marche/ <br>
-
-## A quoi sert PGP ?
-
-### le chiffrement de Mails
-
-Le chiffrement des emails est le cas d'usage principal de PGP est utilisé pour toute personne souhaitant effectuer des communication sécurisées et préserver la confidentialité des données.
-
-
-### la vérification de signatures numériques
-
-Outre le cas des mails, PGP est aussi utilisé pour la vérification de signature numériques, c'est à dire la vérification de l'identité d'un expéditeur d'un email. "Une signature numérique repose sur l’utilisation d’un algorithme pour combiner la clé de l’expéditeur avec les données qu’il envoie. Cette combinaison génère une  » fonction hash  » : un autre algorithme permettant de convertir un message en un bloc de données à taille fixe. Ce bloc est ensuite chiffré à l’aide de la clé privée de l’expéditeur." [lebigdata.fr/pgp-tout-savoir]
-
-le destinataire du message est alors capable de déchiffrer les données en utilisant la clé publique de l'expéditeur. Si un caractère du message à été altéré pendant l'échange du message, alors cela signifie que l'expéditeur n'est peut etre pas celui qu'il prétend...
-
-### le chiffrement de fichiers
-
-Le chiffrement des fichiers est un autre cas d'usage de PGP est utilisé pour toute personne souhaitant effectuer des échanges de dossiers ou fichiers sécurisées et préserver la confidentialité des données.
 
 <br>
 
