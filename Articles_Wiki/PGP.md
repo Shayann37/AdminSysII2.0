@@ -51,7 +51,7 @@ Comprendre le chiffrement symétrique et asymétrique : -> <a href="https://www.
 
 Schéma de Chiffrement PGP: 
 
-![test](https://github.com/edouardmais1/AdminSysII2.0/blob/main/IMG/Chiffrement-Dechiffrement-mail-PGP-dsfsdgf5.jpg)
+![test](https://github.com/edouardmais1/AdminSysII2.0/blob/main/IMG/PGP.png)
 
 lien vers l'images : -> https://www.malekal.com/le-chiffrement-pgp-comment-ca-marche/ <br>
 
