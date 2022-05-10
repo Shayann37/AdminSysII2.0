@@ -80,41 +80,43 @@ Néanmoins, le plus gros inconvénient de PGP reste sa compléxetité d'utilisat
 
 ## Choisir son logiciel PGP
 
+Afin de choisir au mieux son logiciel PGP, il est essentiel de prendre en compte les critères à mettre en place concernant la sécurité à mettre en place ainsi que le type d'objet à sécuriser.
+les Leaders en termes de logiciels PGP:
+
+- Gpg4o (Outlook): très populaire pour les utilisateurs Windows et permet de chiffrer les emails avec une interface intuitive.<br>
+- GPGToolss (Apple MAil): populaire pour les utilisateurs Mac OS et permet de bénéficier de chiffrement pour les différents services d'un Mac (services Mail et applications).
+- ProtonMail : utilisant directement le chiffrement PGP par défaut et permet donc de profiter du logiciel aisément.
+<br>
+
+## Conclusion
+
+En conclusion, PGP est logiciel de chiffrement de haute qualité et reste l'un des leaders à l'heure actuelle pour ses performances et sa polyvalence. Il met à disposition différents types de solutions en fonctions de différents besoin utilisateurs. Son système de chiffrement à double clés, son système de signature et son algorithme de chiffrement RSA font de lui l'un des logiciels les plus complets et sécurisé.
 
 
 
+## Bibliographie :
+
+1) - https://fr.wikipedia.org/wiki/Chiffrement_RSA, wikipédia, article en ligne dont la dernière modification date du 12 avril 2022 <br>
+
+
+2) - https://fr1.buffalo-mn.org/pgp-me-pretty-good-privacy-explained-4745, buffalo.org <br>
 
 
 
+3) - https://tutox.fr/2017/04/28/chiffrer-nest-crypter/, tutox.fr, publié le 28 avril 2017 <br>
 
 
 
+4) - https://www.malekal.com/le-chiffrement-pgp-comment-ca-marche/, malekal.com, dernière modification le 16 juin 2021<br>
 
 
+5) - https://www.varonis.com/fr/blog/pgp-encryption, varonis.com, dernière modification le 1er avril 2022
+
+6) - https://www.lebigdata.fr/pgp-tout-savoir, lebigdata.fr, publié le 21 janvier 2021 <br>
 
 
+7) - https://www.clicours.com/cours-fonctionnement-de-pgp-programme-de-cryptage/, clicours.com, dernière modification inconnue
 
 
+8) - https://docs.microsoft.com/fr-fr/system-center/orchestrator/standard-activities/pgp-encrypt-file?view=sc-orch-2022, docs.microsoft.com, publié le 2 mai 2022 <br>
 
-
-
-
-
-
-
-
-
-
-
-## Sources 
-https://fr.wikipedia.org/wiki/Chiffrement_RSA
-https://fr1.buffalo-mn.org/pgp-me-pretty-good-privacy-explained-4745
-https://tutox.fr/2017/04/28/chiffrer-nest-crypter/
-https://www.malekal.com/le-chiffrement-pgp-comment-ca-marche/
-https://www.varonis.com/fr/blog/pgp-encryption
-https://www.lebigdata.fr/pgp-tout-savoir
-https://www.clicours.com/cours-fonctionnement-de-pgp-programme-de-cryptage/
-https://www.seald.io/fr/blog/crypter-un-fichier-chiffrer-proteger-qui-dit-quoi
-https://blog.mailfence.com/fr/difference-chiffrement-symetrique-asymetrique/
-https://docs.microsoft.com/fr-fr/system-center/orchestrator/standard-activities/pgp-encrypt-file?view=sc-orch-2022
-https://fr1.buffalo-mn.org/pgp-me-pretty-good-privacy-explained-4745
