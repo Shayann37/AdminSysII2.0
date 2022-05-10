@@ -36,3 +36,20 @@ Le serveur envoie au navigateur une copie de son certificat SSL.
 Le navigateur vérifie s'il fait confiance à ce certificat SSL. Si oui, il envoie un message au serveur.
 Le serveur renvoie une acceptation avec signature numérique confirmant le démarrage d'une session SSL cryptée.
 Les données cryptées sont échangées entre le navigateur et le serveur.
+
+## Sources :
+
+* [Gandi](https://docs.gandi.net/fr/ssl/operations_courantes/csr.html)
+* [Gandi](https://docs.gandi.net/fr/ssl/operations_courantes/dcv.html#sommaire)
+* [Gandi](https://docs.gandi.net/fr/ssl/operations_courantes/recuperer_certificat.html)
+* [Gandi](https://docs.gandi.net/fr/ssl/ssl_c_est_quoi/index.html)
+* [Gandi](https://docs.gandi.net/fr/ssl/description/index.html)
+* [digicert](https://www.websecurity.digicert.com/security-topics/what-is-ssl-tls-https#:~:text=SSL%20stands%20for%20Secure%20Sockets,transferred%2C%20including%20potential%20personal%20details.)
+* [globalsign](https://www.globalsign.com/fr/centre-information-ssl/definition-certificat-ssl)
+* [globalsign](https://www.globalsign.com/fr/centre-information-ssl/definition-ssl)
+* [digicert](https://www.websecurity.digicert.com/fr/fr/security-topics/how-does-ssl-handshake-work)
+* [thawte](https://www.thawte.fr/resources/ssl-information-center/get-started-with-ssl/how-ssl-works/)
+* [wikihow](https://fr.wikihow.com/installer-un-certificat-SSL#:~:text=certificat%20(CSR).-,Avant%20de%20pouvoir%20acheter%20et%20installer%20un%20certificat%20SSL%2C%20vous,la%20ligne%20de%20commande%20Apache.)
+* [globalsign](https://www.globalsign.com/fr/blog/qu-est-ce-qu-une-demande-de-signature-de-certificat-csr)
+* [certeurope](https://www.certeurope.fr/blog/guide-csr-certificat/#:~:text=Comment%20s'utilise%20une%20CSR,qu'il%20gardera%20secr%C3%A8te)
+* [ibm](https://www.ibm.com/docs/fr/api-connect/5.0.x?topic=profiles-generating-self-signed-certificate-using-openssl)
