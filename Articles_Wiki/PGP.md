@@ -30,6 +30,11 @@ C’est la raison pour laquelle on utilise une clé de chiffrement publique pour
 
 Comprendre le chiffrement symétrique et asymétrique : -> <a href="https://www.youtube.com/watch?v=7W7WPMX7arI&t=360s&ab_channel=Cookieconnect%C3%A9">Cookie Conneté</a><br>
 
+Schéma de Chiffrement PGP: 
+
+![test](https://github.com/edouardmais1/AdminSysII2.0/blob/main/IMG/Chiffrement-Dechiffrement-mail-PGP-dsfsdgf5.jpg)
+
+lien vers l'images : -> https://www.malekal.com/le-chiffrement-pgp-comment-ca-marche/ <br>
 
 ## A quoi sert PGP ?
 
