@@ -75,7 +75,11 @@ De plus, ses différentes extensions et les solutions qu'il apporte en fonction 
 
 Néanmoins, le plus gros inconvénient de PGP reste sa compléxetité d'utilisation assez complexe et peut induire des failles de sécurité si celui-ci n'est pas utilisé correctement.
 
-à l'heure actuelle des solutions pretes à l'emploi sont disponibles, et il ne faut pas oublier que PGP n'offre malheureusement pas l'anonymat... En effet, meme si le contenu des messages est chiffré, il est possible de remonter jusqu'a l'identité de l'expéditeur
+à l'heure actuelle des solutions pretes à l'emploi sont disponibles, et il ne faut pas oublier que PGP n'offre malheureusement pas l'anonymat... En effet, meme si le contenu des messages est chiffré, il est possible de remonter jusqu'a l'identité de l'expéditeur ou du destinataire.
+
+
+## Choisir son logiciel PGP
+
 
 
 
