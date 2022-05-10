@@ -59,8 +59,25 @@ GnuPG, lui, est une autre norme de chiffrement libre que les entreprises peuvent
 
 ## Quelle sécurité fournie par PGP ?
 
+Il est assez difficile de certifier à qu'une méthode de chiffrement est à 100% infaillible. Cela dit, PGP à maintenant plus de 30 ans et peu de vulnérabilités ont été détecter dans l'implémentation de base du système. De plus, son système de à 2 clés, son système de signature et le fait qu'il soit open-source contribuent tous à sa réputation comme l'un des meilleurs protocoles de cryptage.
+
+
+## Algorithmes de chiffrement PGP
+
+Différents types d'algorithmes de chiffrements peuvent etre utilisés avec PGP bien que le populaire "RSA" soit l'un des plus courants étant donné sa robustesse. L'on peut noté d'autres algorithmes courament utilisés comme AES et autres. 
+
 
 ## Avantages et Inconvénients ?
+
+Le principal avantage de PGP est qu'il est presque impossible de contourner son chiffrement, ce qui explique sa populairité encore à l'heure actuelle.
+
+De plus, ses différentes extensions et les solutions qu'il apporte en fonction du type d'objet à chiffrer font de lui un logiciel très polyvalent.
+
+Néanmoins, le plus gros inconvénient de PGP reste sa compléxetité d'utilisation assez complexe et peut induire des failles de sécurité si celui-ci n'est pas utilisé correctement.
+
+à l'heure actuelle des solutions pretes à l'emploi sont disponibles, et il ne faut pas oublier que PGP n'offre malheureusement pas l'anonymat... En effet, meme si le contenu des messages est chiffré, il est possible de remonter jusqu'a l'identité de l'expéditeur
+
+
 
 
 
@@ -86,6 +103,7 @@ GnuPG, lui, est une autre norme de chiffrement libre que les entreprises peuvent
 
 
 ## Sources 
+https://fr.wikipedia.org/wiki/Chiffrement_RSA
 https://fr1.buffalo-mn.org/pgp-me-pretty-good-privacy-explained-4745
 https://tutox.fr/2017/04/28/chiffrer-nest-crypter/
 https://www.malekal.com/le-chiffrement-pgp-comment-ca-marche/
