@@ -3,15 +3,15 @@
 
 ## Introduction 
 
-Avant de rentrer dans le vif du sujet en détails, il est intéressant de d'abord nous resituer dans le Contexte et se poser la question : "Qu'est ce que PGP ?".<br>
+Avant de rentrer dans le vif du sujet en détails, il est intéressant de d'abord se remettre dans le Contexte et se poser la question : "Qu'est ce que PGP ?".<br>
 
-Inventé en 1991, PGP ou "Pretty Good Privacy" est un système de chiffrement utilisé pour crypter des données, chiffrer des emails (via OpenPGP) et des fichiers sensibles. PGP s'impose rapidement comme un standard pour la sécurité des emails et se popularité repose sur 2 avantages significatifs. <br>
-Premièrement, PGP est un "freeware" ou "logiciel gratuit" pour (pour les francophones) qui lui a permis de se propager assez rapidement parmi les utilisateurs désirant un niveau de sécurité supplémentaire sur leur transfert d'emails.<br>
-Deuxièmement, PGP utilise le système de chiffrement symétrique et par clé publique ce qui permet aux utilisateurs de communiquer de facon chiffré sans échanger leurs clés privées ce qui est un réel avantage en terme de sécurité et à moindre cout et assure le chiffrement de bout en bout des communications.
+Inventé en 1991, PGP ou "Pretty Good Privacy" est un système de chiffrement utilisé pour crypter des données, chiffrer des emails et des fichiers sensibles à travers différents logiciels se basant sur PGP lui-même. PGP s'impose rapidement comme un standard pour la sécurité des emails et sa popularité repose sur 2 avantages significatifs. <br>
+Premièrement, PGP est un "freeware" ou "logiciel gratuit" (pour les francophones) qui lui a permis de se propager assez rapidement parmi les utilisateurs désirant un niveau de sécurité supplémentaire sur leur transfert d'emails.<br>
+Deuxièmement, PGP utilise le système de chiffrement asymétrique ce qui permet aux utilisateurs de communiquer de facon chiffré sans échanger leurs clés privées ce qui est un réel avantage en terme de sécurité et à moindre cout et assure le chiffrement de bout en bout des communications.
 
 ## Fonctionnement et Concepts Théoriques 
 
-PGP possède certaines caractéristiques avec d'autres systèmes de chiffrement tels que Kerberos, S/MIME ou encore un peu plus populaire : SSL. A un niveau basique le chiffrement PGP utilise une combinaison de 2 types de chiffrements càd, le chiffrement symétrique et asymétrique que l'on peut qualifier comme "a clef de sessions".
+PGP possède certaines caractéristiques semblables à d'autres systèmes de chiffrement tels que Kerberos, S/MIME ou encore un peu plus populaire : SSL. A un niveau basique le chiffrement PGP utilise une combinaison de 2 types de chiffrements càd, le chiffrement symétrique et asymétrique que l'on peut qualifier comme "a clef de sessions".
 
 Avant de continuer, il est intéréssant de se renseigner sur que signifie les termes chiffrer, déchiffrer, crypter, décrypter et j'en passe car ses termes sont très souvent utilisés dans le domaine de l'informatique mais le signification ne sont pas exactement les memes et beaucoup d'entre nous n'utilise pas ses termes correctement.<br>
 
@@ -28,7 +28,8 @@ Ensuite, cette clé de session est chiffrée. Cette opération est réalisée à
 Enfin, pourquoi ne pas utiliser une simple méthode de chiffrement symétrique ? En effet, le chiffrement symétrique est une technique plus rapide et plus facile à mettre en place mais l'inconvénient est que la clé commune à l'expéditeur et au destinataire nécéssite d'etre partagée en texte brut, ce qui n'est pas sur du tout...
 C’est la raison pour laquelle on utilise une clé de chiffrement publique pour chiffrer la clé de session. Ainsi, PGP combine l’efficacité du chiffrement symétrique et la sécurité du chiffrement par clé publique.
 
-<br>
+Comprendre le chiffrement symétrique et asymétrique : -> <a href="https://www.youtube.com/watch?v=7W7WPMX7arI&t=360s&ab_channel=Cookieconnect%C3%A9">Cookie Conneté</a><br>
+
 
 ## A quoi sert PGP ?
 
