@@ -49,11 +49,13 @@ C’est la raison pour laquelle on utilise une clé de chiffrement publique pour
 
 Comprendre le chiffrement symétrique et asymétrique : -> <a href="https://www.youtube.com/watch?v=7W7WPMX7arI&t=360s&ab_channel=Cookieconnect%C3%A9">Cookie Conneté</a><br>
 
-Schéma de Chiffrement PGP: 
+Schéma de Chiffrement PGP: <br><br>
 
 ![test](https://github.com/edouardmais1/AdminSysII2.0/blob/main/IMG/PGP.png)
 
-lien vers l'images : -> https://www.malekal.com/le-chiffrement-pgp-comment-ca-marche/ <br>
+
+<br>
+schéma rédigé via draw.io par Maisin Edouard
 
 <br>
 
