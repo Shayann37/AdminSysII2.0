@@ -7,36 +7,36 @@ Avant de rentrer dans le vif du sujet en détails, il est intéressant de d'abor
 
 Inventé en 1991, PGP ou "Pretty Good Privacy" est un système de chiffrement utilisé pour chiffrer des données, chiffrer des emails et des fichiers sensibles à travers différents logiciels se basant sur PGP lui-même. PGP s'impose rapidement comme un standard pour la confidentialité des emails et sa popularité repose sur 2 avantages significatifs. <br>
 Premièrement, PGP est un "freeware" ou "logiciel gratuit" (pour les francophones) qui lui a permis de se propager assez rapidement parmi les utilisateurs désirant un niveau de sécurité supplémentaire sur leur transfert d'emails.<br>
-Deuxièmement, PGP utilise le système de chiffrement asymétrique ce qui permet aux utilisateurs de communiquer de facon chiffré de bout en bout lors d'échanges de mails coté serveur (pour les mailsà sans échanger leurs clés privées ce qui est un réel avantage en terme de sécurité et à moindre cout et assure le chiffrement de bout en bout des communications.
+Deuxièmement, PGP utilise le système de chiffrement asymétrique ce qui permet aux utilisateurs de communiquer de facon chiffré de bout en bout lors d'échanges de mails coté serveur (pour les mailsà sans échanger leurs clés privées ce qui est un réel avantage en terme de sécurité et à moindre cout et assure le chiffrement de bout en bout des communications. [1] [6] 
 
 ## A quoi sert PGP ?
 
 ### le chiffrement de Mails
 
-Le chiffrement des emails est le cas d'usage principal de PGP est utilisé pour toute personne souhaitant effectuer des communication sécurisées et préserver la confidentialité des données.
+Le chiffrement des emails de bout en bout est le cas d'usage principal de PGP et est utilisé pour toute personne souhaitant effectuer des communication sécurisées et préserver la confidentialité des données.[1] [6] [5] 
 
 
 ### la vérification de signatures numériques
 
-Outre le cas des mails, PGP est aussi utilisé pour la vérification de signature numériques, c'est à dire la vérification de l'identité d'un expéditeur d'un email. "Une signature numérique repose sur l’utilisation d’un algorithme pour combiner la clé de l’expéditeur avec les données qu’il envoie. Cette combinaison génère une  » fonction hash  » : un autre algorithme permettant de convertir un message en un bloc de données à taille fixe. Ce bloc est ensuite chiffré à l’aide de la clé privée de l’expéditeur." [lebigdata.fr/pgp-tout-savoir]
+Outre le cas des mails, PGP est aussi utilisé pour la vérification de signature numériques, c'est à dire la vérification de l'identité d'un expéditeur d'un email. "Une signature numérique repose sur l’utilisation d’un algorithme pour combiner la clé de l’expéditeur avec les données qu’il envoie. Cette combinaison génère une  » fonction hash  » : un autre algorithme permettant de convertir un message en un bloc de données à taille fixe. Ce bloc est ensuite chiffré à l’aide de la clé privée de l’expéditeur." [lebigdata.fr/pgp-tout-savoir] [6]  [5] 
 
-le destinataire du message est alors capable de déchiffrer les données en utilisant la clé publique de l'expéditeur. Si un caractère du message à été altéré pendant l'échange du message, alors cela signifie que l'expéditeur n'est peut etre pas celui qu'il prétend...
+le destinataire du message est alors capable de déchiffrer les données en utilisant la clé publique de l'expéditeur. Si un caractère du message à été altéré pendant l'échange du message, alors cela signifie que l'expéditeur n'est peut etre pas celui qu'il prétend... [1] [6] [5] 
 
 ### le chiffrement de fichiers
 
-Le chiffrement des fichiers est un autre cas d'usage de PGP est utilisé pour toute personne souhaitant effectuer des échanges de dossiers ou fichiers sécurisées et préserver la confidentialité des données.
+Le chiffrement des fichiers est un autre cas d'usage de PGP est utilisé pour toute personne souhaitant effectuer des échanges de dossiers ou fichiers sécurisées et préserver la confidentialité des données. [1] [5] 
 
 <br>
 
 ## Fonctionnement et Concepts Théoriques 
 
-PGP possède certaines caractéristiques semblables à d'autres systèmes de chiffrement tels que Kerberos, S/MIME ou encore un peu plus populaire : SSL. A un niveau basique le chiffrement PGP utilise une combinaison de 2 types de chiffrements càd, le chiffrement symétrique et asymétrique que l'on peut qualifier comme "a clef de sessions".
+PGP possède certaines caractéristiques semblables à d'autres systèmes de chiffrement tels que Kerberos, S/MIME ou encore un peu plus populaire : SSL. A un niveau basique le chiffrement PGP utilise une combinaison de 2 types de chiffrements càd, le chiffrement symétrique et asymétrique que l'on peut qualifier comme "a clef de sessions". [5]
 
 Avant de continuer, il est intéréssant de se renseigner sur que signifie les termes chiffrer, déchiffrer, crypter, décrypter et j'en passe car ses termes sont très souvent utilisés dans le domaine de l'informatique mais le signification ne sont pas exactement les memes et beaucoup d'entre nous n'utilise pas ses termes correctement.<br>
 
-L'ensemble de ses termes font partie du domaine de la cryptographie, c'est à dire l'ensemble des techniques qui permettent de rendre un message inintelligible. Le chiffrement des données consiste en l’utilisation d’une technique de cryptographie pour rendre un message clair illisible à l’aide d’une clé de chiffrement. Le principe fondamental est que cette clé doit être connue par le destinataire pour permettre le déchiffrement du message. c'est sur ce principe que repose le logiciel PGP. il éxiste plusieurs types de clés et chaque appareil ou utilisateur dispose de sa propre clé.<br>
+L'ensemble de ses termes font partie du domaine de la cryptographie, c'est à dire l'ensemble des techniques qui permettent de rendre un message inintelligible. Le chiffrement des données consiste en l’utilisation d’une technique de cryptographie pour rendre un message clair illisible à l’aide d’une clé de chiffrement. Le principe fondamental est que cette clé doit être connue par le destinataire pour permettre le déchiffrement du message. c'est sur ce principe que repose le logiciel PGP. il éxiste plusieurs types de clés et chaque appareil ou utilisateur dispose de sa propre clé.<br> [7]
 
-Contrairement au chiffrement, le cryptage est souvent une confusion vis à vis du terme "chiffrement" ou l'on associe trop souvent les 2 termes et pour autant "chiffrer" n'est pas "crypter". en Effet, prenom le terme "décrypter", décrypter consiste à retrouver le texte original à partir d’un message chiffré sans posséder la clé de (dé)chiffrement. Décrypter ne peut accepter d’antonyme : il est en effet impossible de créer un message chiffré sans posséder de clé de chiffrement. c'est pourquoi le terme "crypter" est une simple erreur venant sans doute du mot "cryptographie" et qui est, en effet, une erreur de vocabulaire.
+Contrairement au chiffrement, le cryptage est souvent une confusion vis à vis du terme "chiffrement" ou l'on associe trop souvent les 2 termes et pour autant "chiffrer" n'est pas "crypter". en Effet, prenom le terme "décrypter", décrypter consiste à retrouver le texte original à partir d’un message chiffré sans posséder la clé de (dé)chiffrement. Décrypter ne peut accepter d’antonyme : il est en effet impossible de créer un message chiffré sans posséder de clé de chiffrement. c'est pourquoi le terme "crypter" est une simple erreur venant sans doute du mot "cryptographie" et qui est, en effet, une erreur de vocabulaire. [7]
 
 Revenons à notre chiffrement PGP et son Fonctionnement : 
 
@@ -57,11 +57,11 @@ lien vers l'images : -> https://www.malekal.com/le-chiffrement-pgp-comment-ca-ma
 
 <br>
 
-## PGP, OpenPGP et GnuPG
+## PGP, OpenPGP et GnuPG 
 
-en raison des problèmes de brevets de PGP dans les années 90, PGP n'était pas toujours la solution la plus pratique à l'internationale, le Groupe de travail OpenPGP fur crée après la diffusion du code source de PGP, lui, protégé. OpenPGP est basé sur le système de chiffrement PGP et est lui aussi, une méthode de chiffrement basé sur un système de clés. OpenPGP est largement uutilisé pour sécuriser les communications par courrier électronique, mais sa technologie peut également être appliquée au transfert de fichier via FTP.
+en raison des problèmes de brevets de PGP dans les années 90, PGP n'était pas toujours la solution la plus pratique à l'internationale, le Groupe de travail OpenPGP fur crée après la diffusion du code source de PGP, lui, protégé. OpenPGP est basé sur le système de chiffrement PGP et est lui aussi, une méthode de chiffrement basé sur un système de clés. OpenPGP est largement uutilisé pour sécuriser les communications par courrier électronique, mais sa technologie peut également être appliquée au transfert de fichier via FTP. [2] [1]
 
-GnuPG, lui, est une autre norme de chiffrement libre que les entreprises peuvent utiliser, basée sur OpenPGP. La principale différence avec le PGP réside dans les algorithmes pris en charges. GnuPG est un outil utilisé pour la communication et le stockage de données en toute sécurité. Il dispose d’un système de gestion des clés robuste et s’intègre facilement à d’autres applications. Il prend en charge : le chiffrement, la signature des données, S/MIME et SSH.
+GnuPG, lui, est une autre norme de chiffrement libre que les entreprises peuvent utiliser, basée sur OpenPGP. La principale différence avec le PGP réside dans les algorithmes pris en charges. GnuPG est un outil utilisé pour la communication et le stockage de données en toute sécurité. Il dispose d’un système de gestion des clés robuste et s’intègre facilement à d’autres applications. Il prend en charge : le chiffrement, la signature des données, S/MIME et SSH.[2] [8]
 
 <br>
 
@@ -73,6 +73,10 @@ Il est assez difficile de certifier à qu'une méthode de chiffrement est à 100
 ## Algorithmes de chiffrement PGP
 
 Différents types d'algorithmes de chiffrements peuvent etre utilisés avec PGP bien que le populaire "RSA" soit l'un des plus courants étant donné sa robustesse. L'on peut noté d'autres algorithmes courament utilisés comme AES et autres. 
+
+A noté que la taille d'un clé RSA peut varier sur des longueur de bits différents renforcant la sécurité. En effet, un clé chiffrée sur 1024 ou 512 bits (assez faibles) ne possedera pas la meme robustesse qu'une clé chiffrée sur 2048 ou 4096 bits...
+
+Il est interessant de noté que certains protocoles, logiciels ou certificats obligent l'utilisation de taille de clé RSA minimum afin d'assurer une confidentialité et robustesse accrue tout comme par exemple *SSL dont les clés minimum passeront de 2048 à 3072 bits* [https://www.ssl.com/fr/les-blogs/nouvelle-taille-de-cl%C3%A9-rsa-minimale-pour-les-certificats-de-signature-de-code/]
 
 
 ## Avantages et Inconvénients ?
